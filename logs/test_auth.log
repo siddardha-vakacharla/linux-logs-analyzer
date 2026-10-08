@@ -1,0 +1,5 @@
+2026-09-05T10:00:00+00:00 server1 sshd[1001]: Failed password for invalid user hacker from 192.168.1.100 port 5001 ssh2
+2026-09-05T10:00:05+00:00 server1 sshd[1002]: Failed password for invalid user hacker from 192.168.1.100 port 5002 ssh2
+2026-09-05T10:00:10+00:00 server1 sshd[1003]: Failed password for invalid user hacker from 192.168.1.100 port 5003 ssh2
+2026-09-05T10:01:00+00:00 server1 sshd[1006]: Accepted password for siddu from 192.168.1.100 port 5010 ssh2
+2026-09-05T10:02:00+00:00 server1 sudo[1007]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/whoami

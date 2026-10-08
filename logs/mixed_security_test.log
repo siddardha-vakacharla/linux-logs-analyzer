@@ -1,0 +1,83 @@
+2026-09-05T10:00:00+00:00 server1 systemd[1000]: Started Network Service.
+2026-09-05T10:00:03+00:00 server1 sshd[1001]: Failed password for invalid user hacker from 192.168.1.100 port 5001 ssh2
+2026-09-05T10:00:07+00:00 server1 login[1002]: pam_unix(login:session): session opened for user siddu(uid=1000) by siddu(uid=1000)
+2026-09-05T10:00:10+00:00 server1 sshd[1003]: Failed password for invalid user hacker from 192.168.1.100 port 5002 ssh2
+2026-09-05T10:00:15+00:00 server1 systemd[1004]: pam_unix(systemd-user:session): session opened for user siddu(uid=1000) by siddu(uid=1000)
+2026-09-05T10:00:20+00:00 server1 sshd[1005]: Failed password for invalid user hacker from 192.168.1.100 port 5003 ssh2
+2026-09-05T10:00:25+00:00 server1 sudo[1006]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/whoami
+2026-09-05T10:00:30+00:00 server1 sshd[1007]: Failed password for invalid user hacker from 192.168.1.100 port 5004 ssh2
+2026-09-05T10:00:35+00:00 server1 CRON[1008]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-09-05T10:00:40+00:00 server1 sshd[1009]: Failed password for invalid user hacker from 192.168.1.100 port 5005 ssh2
+2026-09-05T10:00:45+00:00 server1 useradd[1010]: new user: name=testuser, UID=1002, GID=1002, home=/home/testuser, shell=/bin/bash
+2026-09-05T10:00:50+00:00 server1 sshd[1011]: Failed password for invalid user hacker from 192.168.1.100 port 5006 ssh2
+2026-09-05T10:00:55+00:00 server1 systemd[1012]: Started OpenSSH server.
+2026-09-05T10:01:00+00:00 server1 sshd[1013]: Failed password for invalid user hacker from 192.168.1.100 port 5007 ssh2
+2026-09-05T10:01:05+00:00 server1 login[1014]: pam_unix(login:session): session closed for user siddu
+2026-09-05T10:01:10+00:00 server1 sshd[1015]: Failed password for invalid user hacker from 192.168.1.100 port 5008 ssh2
+2026-09-05T10:01:15+00:00 server1 sudo[1016]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/id
+2026-09-05T10:01:20+00:00 server1 sshd[1017]: Failed password for invalid user hacker from 192.168.1.100 port 5009 ssh2
+2026-09-05T10:01:25+00:00 server1 systemd[1018]: pam_unix(systemd-user:session): session closed for user siddu
+2026-09-05T10:01:30+00:00 server1 sshd[1019]: Failed password for invalid user hacker from 192.168.1.100 port 5010 ssh2
+2026-09-05T10:01:35+00:00 server1 CRON[1020]: pam_unix(cron:session): session closed for user root
+2026-09-05T10:01:40+00:00 server1 sshd[1021]: Accepted password for siddu from 192.168.1.100 port 5011 ssh2
+2026-09-05T10:01:45+00:00 server1 sudo[1022]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+2026-09-05T10:01:50+00:00 server1 sshd[1023]: Failed password for siddu from 10.0.0.50 port 5100 ssh2
+2026-09-05T10:01:55+00:00 server1 systemd[1024]: Started Session 100 of User siddu.
+2026-09-05T10:02:00+00:00 server1 sshd[1025]: Failed password for siddu from 10.0.0.50 port 5101 ssh2
+2026-09-05T10:02:05+00:00 server1 login[1026]: pam_unix(login:session): session opened for user admin(uid=1001) by admin(uid=1001)
+2026-09-05T10:02:10+00:00 server1 sshd[1027]: Failed password for siddu from 10.0.0.50 port 5102 ssh2
+2026-09-05T10:02:15+00:00 server1 useradd[1028]: new user: name=backup, UID=1003, GID=1003, home=/home/backup, shell=/bin/bash
+2026-09-05T10:02:20+00:00 server1 sshd[1029]: Failed password for siddu from 10.0.0.50 port 5103 ssh2
+2026-09-05T10:02:25+00:00 server1 sudo[1030]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-09-05T10:02:30+00:00 server1 sshd[1031]: Failed password for siddu from 10.0.0.50 port 5104 ssh2
+2026-09-05T10:02:35+00:00 server1 systemd[1032]: pam_unix(systemd-user:session): session opened for user admin(uid=1001) by admin(uid=1001)
+2026-09-05T10:02:40+00:00 server1 sshd[1033]: Accepted password for admin from 10.0.0.25 port 5200 ssh2
+2026-09-05T10:02:45+00:00 server1 CRON[1034]: pam_unix(cron:session): session opened for user siddu(uid=1000) by (uid=0)
+2026-09-05T10:02:50+00:00 server1 sshd[1035]: Failed password for invalid user guest from 172.16.0.20 port 5300 ssh2
+2026-09-05T10:02:55+00:00 server1 sudo[1036]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/journalctl -xe
+2026-09-05T10:03:00+00:00 server1 sshd[1037]: Failed password for invalid user guest from 172.16.0.20 port 5301 ssh2
+2026-09-05T10:03:05+00:00 server1 systemd[1038]: Started Daily apt download activities.
+2026-09-05T10:03:10+00:00 server1 sshd[1039]: Failed password for invalid user guest from 172.16.0.20 port 5302 ssh2
+2026-09-05T10:03:15+00:00 server1 login[1040]: pam_unix(login:session): session closed for user admin
+2026-09-05T10:03:20+00:00 server1 sudo[1041]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-09-05T10:03:25+00:00 server1 CRON[1042]: pam_unix(cron:session): session closed for user siddu
+2026-09-05T10:03:30+00:00 server1 sshd[1043]: Accepted password for siddu from 192.168.1.50 port 5400 ssh2
+2026-09-05T10:03:35+00:00 server1 systemd[1044]: pam_unix(systemd-user:session): session closed for user admin
+2026-09-05T10:03:40+00:00 server1 sudo[1045]: siddu : TTY=pts/2 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/ls /var/log
+2026-09-05T10:03:45+00:00 server1 sshd[1046]: Failed password for root from 192.168.1.200 port 5500 ssh2
+2026-09-05T10:03:50+00:00 server1 systemd[1047]: Started User Manager for UID 1000.
+2026-09-05T10:03:55+00:00 server1 sshd[1048]: Failed password for root from 192.168.1.200 port 5501 ssh2
+2026-09-05T10:04:00+00:00 server1 login[1049]: pam_unix(login:session): session opened for user testuser(uid=1002) by testuser(uid=1002)
+2026-09-05T10:04:05+00:00 server1 sshd[1050]: Failed password for root from 192.168.1.200 port 5502 ssh2
+2026-09-05T10:04:10+00:00 server1 sudo[1051]: root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/whoami
+2026-09-05T10:04:15+00:00 server1 sshd[1052]: Failed password for root from 192.168.1.200 port 5503 ssh2
+2026-09-05T10:04:20+00:00 server1 systemd[1053]: pam_unix(systemd-user:session): session opened for user testuser(uid=1002) by testuser(uid=1002)
+2026-09-05T10:04:25+00:00 server1 sshd[1054]: Failed password for root from 192.168.1.200 port 5504 ssh2
+2026-09-05T10:04:30+00:00 server1 CRON[1055]: pam_unix(cron:session): session opened for user backup(uid=1003) by (uid=0)
+2026-09-05T10:04:35+00:00 server1 sshd[1056]: Accepted password for root from 192.168.1.200 port 5510 ssh2
+2026-09-05T10:04:40+00:00 server1 sudo[1057]: root : TTY=pts/3 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd root
+2026-09-05T10:04:45+00:00 server1 login[1058]: pam_unix(login:session): session closed for user testuser
+2026-09-05T10:04:50+00:00 server1 systemd[1059]: pam_unix(systemd-user:session): session closed for user testuser
+2026-09-05T10:04:55+00:00 server1 CRON[1060]: pam_unix(cron:session): session closed for user backup
+2026-09-05T10:05:00+00:00 server1 sshd[1061]: Failed password for siddu from 10.10.10.10 port 5600 ssh2
+2026-09-05T10:05:05+00:00 server1 systemd[1062]: Started Authorization Manager.
+2026-09-05T10:05:10+00:00 server1 sshd[1063]: Failed password for siddu from 10.10.10.10 port 5601 ssh2
+2026-09-05T10:05:15+00:00 server1 sudo[1064]: siddu : TTY=pts/4 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-09-05T10:05:20+00:00 server1 sshd[1065]: Failed password for siddu from 10.10.10.10 port 5602 ssh2
+2026-09-05T10:05:25+00:00 server1 systemd[1066]: Starting Daily Cleanup of Temporary Directories.
+2026-09-05T10:05:30+00:00 server1 sshd[1067]: Failed password for siddu from 10.10.10.10 port 5603 ssh2
+2026-09-05T10:05:35+00:00 server1 sudo[1068]: siddu : TTY=pts/4 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/passwd root
+2026-09-05T10:05:40+00:00 server1 sshd[1069]: Failed password for siddu from 10.10.10.10 port 5604 ssh2
+2026-09-05T10:05:45+00:00 server1 systemd[1070]: Finished Daily Cleanup of Temporary Directories.
+2026-09-05T10:05:50+00:00 server1 sshd[1071]: Failed password for siddu from 10.10.10.10 port 5605 ssh2
+2026-09-05T10:05:55+00:00 server1 sshd[1072]: Accepted password for siddu from 10.10.10.10 port 5610 ssh2
+2026-09-05T10:06:00+00:00 server1 sshd[1073]: Connection closed by 192.168.1.50 port 5700
+2026-09-05T10:06:05+00:00 server1 sudo[1074]: siddu : TTY=pts/4 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/whoami
+2026-09-05T10:06:10+00:00 server1 systemd[1075]: Reached target Multi-User System.
+2026-09-05T10:06:15+00:00 server1 sshd[1076]: Received disconnect from 192.168.1.50 port 5701
+2026-09-05T10:06:20+00:00 server1 CRON[1077]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-09-05T10:06:25+00:00 server1 sudo[1078]: admin : TTY=pts/1 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/ls /etc/ssh
+2026-09-05T10:06:30+00:00 server1 CRON[1079]: pam_unix(cron:session): session closed for user root
+2026-09-05T10:06:35+00:00 server1 sshd[1080]: Failed password for admin from 10.20.30.40 port 5800 ssh2
+2026-09-05T10:06:40+00:00 server1 systemd[1081]: Started Network Manager.
+

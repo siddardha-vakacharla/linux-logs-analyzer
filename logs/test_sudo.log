@@ -1,0 +1,9 @@
+2026-09-24T10:00:00+00:00 server1 sudo[2001]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+2026-09-24T10:01:00+00:00 server1 sudo[2002]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/ls /var/log
+2026-09-24T10:02:00+00:00 server1 sudo[2003]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/passwd root
+2026-09-24T10:03:00+00:00 server1 sudo[2004]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+2026-09-24T10:04:00+00:00 server1 sudo[2005]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/sbin/usermod -aG sudo testuser
+2026-09-24T10:05:00+00:00 server1 sudo[2006]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/sbin/useradd testuser
+2026-09-24T10:06:00+00:00 server1 sudo[2007]: siddu : TTY=pts/0 ; PWD=/home/siddu ; USER=root ; COMMAND=/usr/bin/cat /etc/sudoers
+2026-09-24T10:07:00+00:00 server1 sudo[2008]: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/passwd
+2026-09-24T10:08:00+00:00 server1 sudo[2009]: root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/passwd root
